@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website">
+    <title>My Portfolio | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">MY<span>PORTFOLIO.</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Lenon Anonuevo Miranda</span></h1>
+            <h2>Aspiring Web Developer</h2>
+            <p>
+                I am passionate about technology, creativity,
+                and building meaningful digital experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary">About Me</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/profile.jpg" alt="My professional portrait">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div>
+                <h3>Who Am I?</h3>
+                <p>
+                    Hello! I'm Your Name. I am an enthusiastic individual
+                    interested in web development, design, and technology.
+                    I enjoy learning new skills, solving problems, and
+                    creating projects that combine functionality and creativity.
+                </p>
+                <p>
+                    My goal is to continuously improve my abilities and
+                    become a skilled professional in the technology field.
+                </p>
+            </div>
+            <div class="info-card">
+                <p><strong>Name:</strong> Your Name</p>
+                <p><strong>Profession:</strong> Aspiring Web Developer</p>
+                <p><strong>Location:</strong> Philippines</p>
+                <p><strong>Email:</strong> yourname@email.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section dark-section">
+        <p class="eyebrow">WHAT I CAN DO</p>
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <span>01</span>
+                <h3>HTML</h3>
+                <p>Building structured web pages.</p>
+            </div>
+            <div class="skill-card">
+                <span>02</span>
+                <h3>CSS</h3>
+                <p>Designing attractive and responsive websites.</p>
+            </div>
+            <div class="skill-card">
+                <span>03</span>
+                <h3>JavaScript</h3>
+                <p>Adding interactive website features.</p>
+            </div>
+            <div class="skill-card">
+                <span>04</span>
+                <h3>Communication</h3>
+                <p>Sharing ideas and collaborating with others.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <p class="eyebrow">MY WORK</p>
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-number">PROJECT 01</div>
+                <h3>Personal Portfolio</h3>
+                <p>A personal website showcasing my profile, skills, and projects.</p>
+                <span>HTML · CSS · JavaScript</span>
+            </article>
+            <article class="project-card">
+                <div class="project-number">PROJECT 02</div>
+                <h3>Landing Page</h3>
+                <p>A clean and modern landing page with responsive design.</p>
+                <span>HTML · CSS</span>
+            </article>
+            <article class="project-card">
+                <div class="project-number">PROJECT 03</div>
+                <h3>Interactive Website</h3>
+                <p>A simple interactive website using JavaScript.</p>
+                <span>HTML · CSS · JavaScript</span>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section dark-section">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-description">
+            Have a project or opportunity? Feel free to get in touch.
+        </p>
+        <a class="btn primary" href="mailto:yourname@email.com">Send Me an Email</a>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Your Name. All Rights Reserved.</p>
+    <a href="#home">Back to Top ↑</a>
+</footer>
+
+</body>
+</html>
